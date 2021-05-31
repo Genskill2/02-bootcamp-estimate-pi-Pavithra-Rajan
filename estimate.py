@@ -1,17 +1,18 @@
 import math
 import unittest
+import random
 def wallis(n):
 	mult=1
 	mult=float(mult)
 	for i in range (1,n+1):
-		numerator=4*(i**2
+		numerator=4*(i**2)
 		mult=mult*float(numerator/(numerator-1))
 	return 2*mult
 	
 def monte_carlo(n):
 	dart=0
 	sq=0
-	for i in range(0,val)
+	for i in range(0,n):
 		x=random.random()
 		y=random.random()
 		
